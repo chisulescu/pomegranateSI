@@ -50,9 +50,9 @@ def barcode(image):
 	# extract results
 	for symbol in image:
 	    # do something useful with results
-	    print 'format:', symbol.type, '| data:', '"%s"' % symbol.data
+	    print('format:', symbol.type, '| data:', '"%s"' % symbol.data)
 	# clean up
-	print '-----------------------------------------------------------------------'
+	print('-----------------------------------------------------------------------')
 	del(image)
 	
 ap = argparse.ArgumentParser()
